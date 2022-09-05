@@ -1,0 +1,156 @@
+* {
+  font-family: quicksand;
+}
+
+.navbar a:hover {
+  color: #f17b4c;
+}
+span {
+  color: #f17b4c;
+}
+
+.main-nama {
+  height: 30vh;
+  position: relative;
+}
+
+.main-nama h1 {
+  position: absolute;
+  width: 500px;
+  height: 208px;
+  left: 295px;
+  top: 0px;
+
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 208.3%;
+  /* or 208px */
+
+  letter-spacing: -0.075em;
+
+  /* primary */
+
+  color: #5059c9;
+  text-shadow: 5px 1px #cfd3ff;
+}
+
+.main-content {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-body {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 184.8%;
+  /* or 33px */
+
+  text-align: justify;
+  letter-spacing: -0.055em;
+
+  /* black */
+
+  color: #292929;
+}
+
+.main-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buton {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 33px;
+  gap: 6px;
+
+  width: 167px;
+  height: 50px;
+  left: 584px;
+  top: 593px;
+
+  background: #e26534;
+  /* secondary */
+
+  border: 1px solid #f17b4c;
+  border-radius: 14px 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 184.8%;
+
+  color: #ffffff;
+}
+
+.buton2 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 33px;
+  gap: 6px;
+
+  width: 120px;
+  height: 50px;
+  left: 584px;
+  top: 593px;
+
+  background: #e26534;
+  /* secondary */
+  margin: 5px;
+  border: 1px solid #f17b4c;
+  border-radius: 14px 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 184.8%;
+
+  color: #ffffff;
+}
+
+.buton2:hover {
+  color: #f17b4c;
+  background-color: #ffd6af;
+  transition: all 0.2s ease-in-out;
+}
+.card {
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.13);
+  border-radius: 14px;
+}
+
+.buton:hover {
+  color: #f17b4c;
+  background-color: #ffd6af;
+  transition: all 0.2s ease-in-out;
+}
+
+i {
+  width: 18px;
+  height: 18px;
+}
+
+.ourservice {
+  background-color: #f17b4c;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-footer {
+  background-color: #5059c9;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
